@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
 driver=webdriver.Chrome(executable_path="C:\chromedriver")
-driver.maximize_window()
+#driver.maximize_window()
 driver.get("https://www.facebook.com")
 driver.find_element_by_css_selector("input[name='email']").send_keys("hildamoni@gmail.com")
 #driver.find_element_by_name("email").send_keys("hildamoni@gmail.com")
